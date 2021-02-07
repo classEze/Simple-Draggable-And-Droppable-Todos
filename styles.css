@@ -27,6 +27,8 @@ header,footer{
 }
 footer{
     box-shadow: 1px -1px 1px 1px rgba(14, 1, 1, 0.3); 
+    color: var(--primaryColor);
+    text-align: center;
 }
 .form_container{
 position: fixed;
@@ -102,6 +104,9 @@ input[type=checkbox]{
     margin: 0;
     padding: 0;
     vertical-align: middle;
+}
+a{
+    text-decoration: none;
 }
 
 
