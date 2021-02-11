@@ -89,10 +89,7 @@ input[type=text], button {
     background-color: rgba(252, 253, 255, 0.981);
     border: 0.5px solid rgb(194, 189, 189);
 }
-.line-through > .todo_title{
-    text-decoration: line-through;
-}
-.line-through > .todo_description{
+.line-through > .todo_title, .line-through > .todo_description{
     text-decoration: line-through;
 }
 button {
